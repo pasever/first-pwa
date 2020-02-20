@@ -27,7 +27,7 @@ import { CoreModule } from './modules/core/core.module';
     AngularFirestoreModule,
     AngularFireAuthModule,
     CoreModule,
-    LayoutModule,
+    LayoutModule
   ],
   providers: [],
   bootstrap: [ AppComponent ]
