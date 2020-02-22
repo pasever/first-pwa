@@ -16,7 +16,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule} from '@angular/router';
 
 const SHARED_MODULES = [
-  // CommonModule,
+  CommonModule,
   MatToolbarModule,
   MatCardModule,
   MatIconModule,
@@ -41,7 +41,6 @@ const SHARED_COMPONENTS = [];
     ...SHARED_COMPONENTS
   ],
   imports: [
-    CommonModule,
     ...SHARED_MODULES
   ],
   exports: [

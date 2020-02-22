@@ -3,13 +3,13 @@ import { Subject } from 'rxjs/internal/Subject';
 import { BehaviorSubject } from 'rxjs/internal/BehaviorSubject';
 // import { User } from 'firebase';
 import { AngularFireAuth } from '@angular/fire/auth';
-import {first, tap} from 'rxjs/operators';
+import { first, tap } from 'rxjs/operators';
 
 
 @Injectable({
   providedIn: 'root'
 })
-export class AuthService {
+export class FireBaseAuthService {
   public authErrorMessages$ = new Subject<string>();
   public isLoading$ = new BehaviorSubject<boolean>(true);
   public user$ = new Subject<any>();
